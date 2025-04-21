@@ -1,6 +1,7 @@
-document.getElementById('nameForm').addEventListener('submit', function(event) {
+document.getElementById('nameForm').addEventListener('submit',function(event) {
     const nameInput = document.getElementById('name').value;
-    if (nameInput.trim() === '') {
+    if (nameInput.trim() === '') 
+    {
         event.preventDefault();
         alert('Please enter a valid name!');
     }
