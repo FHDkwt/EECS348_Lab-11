@@ -1,5 +1,5 @@
 <?php
-// Get name from form submission, default to "Guest"
+// Get name from form submission, default "Guest"
 $name = isset($_POST['name']) ? htmlspecialchars($_POST['name']) : 'Guest';
 ?>
 <!DOCTYPE html>
